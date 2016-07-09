@@ -1,0 +1,25 @@
+{
+  "name": "allCombinator",
+  "short_name": "Easily open all HackerNews stories",
+  "description": "Open All HackerNews (news.ycombinator.com)",
+  "version": "1.0.0",
+  "author": "Demian Andrei",
+  "homepage_url": "https://github.com/unDemian/all-combinator",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "js": [
+        "lib/jquery-3.0.0.min.js",
+        "links.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
