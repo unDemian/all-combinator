@@ -1,7 +1,7 @@
 {
   "name": "allCombinator",
   "short_name": "Easily open all HackerNews stories",
-  "description": "Open All HackerNews (news.ycombinator.com)",
+  "description": "Open All HackerNews (news.ycombinator.com) Stories",
   "version": "1.0.0",
   "author": "Demian Andrei",
   "homepage_url": "https://github.com/unDemian/all-combinator",
